@@ -11,9 +11,9 @@
 }
 
 :root {
-  --color-default: #222222;
-  --color-primary: #f85a40;
-  --color-secondary: #f85a40;
+  --color-default: #2c3e50;
+  --color-primary: #2ecc71;
+  --color-secondary: #3498db;
 }
 
 :root {
@@ -224,7 +224,7 @@ section {
 # Header
 --------------------------------------------------------------*/
 .topbar {
-  background: #00796b;
+  background: #2ecc71;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -277,7 +277,7 @@ section {
   transition: all 0.5s;
   z-index: 997;
   height: 90px;
-  background-color: #2a2a2a;
+  background-color: #2c3e50;
 }
 
 .header.sticked {
@@ -304,7 +304,7 @@ section {
 }
 
 .header .logo h1 span {
-  color: #f96f59;
+  color: #2ecc71;
 }
 
 .sticked-header-offset {
@@ -1254,7 +1254,7 @@ section {
 --------------------------------------------------------------*/
 .team {
   padding: 100px 0;
-  background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
+  background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
   color: #fff;
 }
 
@@ -1310,7 +1310,7 @@ section {
   left: 0;
   right: 0;
   height: 100%;
-  background: linear-gradient(45deg, rgba(248, 90, 64, 0.1), rgba(248, 90, 64, 0.05));
+  background: linear-gradient(45deg, rgba(46, 204, 113, 0.1), rgba(46, 204, 113, 0.05));
   transform: translateY(100%);
   transition: all 0.4s ease;
 }
@@ -1339,8 +1339,8 @@ section {
 
 .team .member:hover img {
   transform: scale(1.05);
-  border-color: var(--color-primary);
-  box-shadow: 0 10px 30px rgba(248, 90, 64, 0.3);
+  border-color: #2ecc71;
+  box-shadow: 0 10px 30px rgba(46, 204, 113, 0.3);
 }
 
 .team .member h4 {
@@ -2429,7 +2429,7 @@ section {
   background: #f8f9fa;
   border-radius: 10px;
   transition: all 0.3s ease;
-  border-left: 4px solid var(--color-primary);
+  border-left: 4px solid #2ecc71;
 }
 
 .contact-item:last-child {
@@ -2438,14 +2438,14 @@ section {
 
 .contact-item:hover {
   transform: translateX(10px);
-  background: var(--color-primary);
+  background: #2ecc71;
   color: #fff;
   border-left-color: #fff;
 }
 
 .contact-item i {
   font-size: 24px;
-  color: var(--color-primary);
+  color: #2ecc71;
   margin-right: 20px;
   margin-top: 5px;
   transition: all 0.3s ease;
